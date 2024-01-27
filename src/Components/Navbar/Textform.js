@@ -82,6 +82,7 @@ export default function Textform(props) {
 
             <div className="container">
                 <h2>Your words counter these</h2>
+                <h2>Your words counter are</h2>
                 <p><b>{text.trim() === '' ? 0 : text.match(/\S+/g).length}</b> words  <b>{text.replace(/\s+/g, '').length}</b> characters
                 </p>
                 <p><b>{0.008 * text.split(" ").length}</b> time to read</p>
