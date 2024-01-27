@@ -1,0 +1,107 @@
+.form_container {
+    width: 35%;
+  }
+  
+  .main-form-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-form-header h3 {
+    font-size: 18px;
+    color: #1d244f;
+    font-weight: 600;
+  }
+  
+  .container-fluid img {
+    border-radius: 18px;
+    width: 30px;
+  }
+
+  .right-header-panel {
+    color: #b0b2c1;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .main-form-header .right-header-panel a {
+    color: #3a34bc;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  button a {
+    text-decoration: none;
+  }
+  
+  button a:hover {
+    color: #1d244f;
+    text-decoration: underline;
+  }
+  
+  .loginModule,
+  .login {
+    background-image: linear-gradient(#9861c2, #5cc0de)
+  }
+  
+  .otp {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  }
+  
+  .otp input {
+    background: inherit;
+    border: none;
+    color: #fff;
+    font-family: monospace;
+  }
+  
+  .otp input::placeholder {
+    color: darkblue;
+    opacity: 1;
+  }
+  
+  .otp h5 {
+    font-family: math;
+    font-size: 18px;
+    color: darkblue;
+  }
+  
+  #otpverify,
+  #mobilelogin {
+    background-color: #9861c2;
+    color: #fff;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+  }
+  
+  .otp p{
+    font-size: 13px;
+  }
+ 
+  @media screen and (max-width: 1000px) {
+    .form_container {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .form_container {
+      width: 65%;
+    }
+  
+    .main-form-header {
+      flex-direction: column;
+    }
+  }
+  
+  
+  @media screen and (max-width: 400px) {
+    .form_container {
+      width: 70%;
+    }
+  
+    .main-form-header {
+      flex-direction: column;
+    }
+  }
